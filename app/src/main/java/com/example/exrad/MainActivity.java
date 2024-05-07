@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void colorClicked(View view) {
         if(switch1.isChecked()){
-            if (rdbtn1.isChecked() == true) {
+            if (rdbtn1.isChecked()) {
                 back.setBackgroundColor(Color.RED);
             }
             else if (rdbtn2.isChecked()) {
